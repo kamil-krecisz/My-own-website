@@ -1,3 +1,19 @@
+h1 {
+    font-size: 70px;
+    font-family: Impact;
+    margin-bottom: -7px;
+}
+
+h2 {
+    font-size: 45px;
+    font-family: Impact;
+    margin-top: -30px;
+}
+
+figcaption {
+    margin-bottom: -15px;
+}
+
 body {
     text-align: center;
     font-family: Arial, sans-serif;
@@ -7,13 +23,47 @@ body {
     padding: 0;
 }
 
-header {
-    background-color: #79195f;
-    color: rgb(0, 0, 0);
-    text-align: center;
-    padding: 1rem;
-}
-
 section {
     padding: 2rem;
 }
+
+ul, ol {
+  list-style: inside;
+  text-align: center;
+  padding: 0;
+}
+
+button {
+    margin-top: 20px;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 12px;
+    background: linear-gradient(90deg, #3fa943, #81c784);
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    transform: scale(1.03);
+    box-shadow: 0 6px 10px rgba(158, 58, 58, 0.4);
+}
+
+footer {
+    margin-top: -30px;
+}
+
+a {
+    color:#ce8989;
+}
+
+a:hover {
+    color: #b77676;
+}
+
+a:active {
+    color: white;
+}
+
